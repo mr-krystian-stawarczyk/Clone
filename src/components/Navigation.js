@@ -46,7 +46,7 @@ function Navigation() {
 									<Link to="/login">Log In</Link>
 								</Button>
 								<Button className="btn btn-dark text-light rounded ">
-									<Link to="/learn">Sign Up Free</Link>
+									<Link to="/login">Sign Up Free</Link>
 								</Button>
 							</Form>
 						</Navbar.Collapse>
