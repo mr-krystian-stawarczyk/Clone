@@ -19,12 +19,12 @@ function Navigation() {
 					id="navbar"
 				>
 					<Container>
-						<Navbar.Brand href="/">
+						<Navbar.Brand href="/Clone">
 							<Image
-								src="./assets/tree-svgrepo-com.svg"
+								src={"../assets/tree-svgrepo-com.svg"}
 								width="30px"
 								height="30px"
-								alt=""
+								alt="tree"
 								style={{ marginRight: "1rem" }}
 							/>
 							Linktree
@@ -44,13 +44,13 @@ function Navigation() {
 									className="btn btn-secondary text-dark rounded  "
 									style={{ marginRight: "1rem" }}
 								>
-									Log In
+									<Link to="/login">Log In</Link>
 								</Button>
 								<Button
 									href="/login"
 									className="btn btn-dark text-light rounded "
 								>
-									Sign up free
+									<Link to="/learn">Sign Up Free</Link>
 								</Button>
 							</Form>
 						</Navbar.Collapse>
