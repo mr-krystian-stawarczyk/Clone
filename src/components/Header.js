@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import {
 	Container,
 	Row,
@@ -75,9 +75,14 @@ function Header() {
 											backgroundColor: "rgb(233, 192, 233)",
 										}}
 										className="rounded"
-										href="/login"
 									>
-										Claim Your Linktree
+										<NavLink
+											to="/login"
+											className=" text-light "
+											style={{ textDecoration: "none" }}
+										>
+											Claim Your Linktree
+										</NavLink>
 									</Button>
 								</Col>
 							</Card.Body>

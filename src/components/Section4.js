@@ -75,7 +75,7 @@ export default function Section4(data, item) {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded shadow-lg"
-									src={"./assets/Comedy.jpg"}
+									src={"../assets/Comedy.jpg"}
 									alt="Second slide"
 									style={{ width: "300px", height: "500px" }}
 								/>
@@ -90,7 +90,7 @@ export default function Section4(data, item) {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded shadow-lg"
-									src={"./assets/redbull.png"}
+									src={"/assets/redbull.png"}
 									alt="Third slide"
 									style={{ width: "300px", height: "500px" }}
 								/>
