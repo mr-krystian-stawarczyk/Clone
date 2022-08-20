@@ -78,7 +78,7 @@ function Header() {
 									>
 										<NavLink
 											to="/login"
-											className=" text-light "
+											className=" text-dark "
 											style={{ textDecoration: "none" }}
 										>
 											Claim Your Linktree

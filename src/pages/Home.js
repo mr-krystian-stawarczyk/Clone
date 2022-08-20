@@ -20,7 +20,6 @@ function Home() {
 			<Section2 />
 			<Section3 />
 			<Fetch />
-			<Section4 />
 			<Section5 />
 			<Section6 />
 			<Section7 />

@@ -61,8 +61,8 @@ export default function Section4(data, item) {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded shadow-lg"
-									src={"./assets/HBO.png"}
-									alt="First slide"
+									src="https://www.tailorbrands.com/wp-content/uploads/2021/04/twitch-logo.png"
+									alt="Twich"
 									style={{ width: "300px", height: "500px" }}
 								/>
 								<Carousel.Caption>
@@ -75,8 +75,8 @@ export default function Section4(data, item) {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded shadow-lg"
-									src={"../assets/Comedy.jpg"}
-									alt="Second slide"
+									src="https://lh3.googleusercontent.com/wAPeTvxh_EwOisF8kMR2L2eOrIOzjfA5AjE28W5asyfGeH85glwrO6zyqL71dCC26R63chADTO7DLOjnqRoXXOAB8t2f4C3QnU6o0BA"
+									alt="Google Cloud"
 									style={{ width: "300px", height: "500px" }}
 								/>
 
@@ -90,8 +90,8 @@ export default function Section4(data, item) {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded shadow-lg"
-									src={"/assets/redbull.png"}
-									alt="Third slide"
+									src="https://i.pinimg.com/564x/a2/e3/7e/a2e37ea31ca0ee55c001b0d4f014754a.jpg"
+									alt="Wolf"
 									style={{ width: "300px", height: "500px" }}
 								/>
 
