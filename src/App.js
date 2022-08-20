@@ -5,6 +5,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Marketplace from "./pages/Marketplace";
 import Pricing from "./pages/Pricing";
+import Discover from "./pages/Discover";
 
 function App() {
 	return (
@@ -20,6 +21,9 @@ function App() {
 					<li>
 						<Link to="/pricing"> pricing</Link>
 					</li>
+					<li>
+						<Link to="/discover"> pricing</Link>
+					</li>
 				</ul>
 			</nav>
 
@@ -27,6 +31,7 @@ function App() {
 				<Route exact path="/" element={<Home />} />
 				<Route path="/marketplace" element={<Marketplace />} />
 				<Route path="/pricing" element={<Pricing />} />
+				<Route path="/discover" element={<Discover />} />
 			</Routes>
 		</>
 	);
