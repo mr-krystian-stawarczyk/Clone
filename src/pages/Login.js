@@ -1,9 +1,9 @@
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ThemeProvider from "react-bootstrap/ThemeProvider";
-import LoginForm from "./LoginForm";
-import Navigation from "./Navigation";
-import Footer from "./Footer";
+import LoginForm from "../components/LoginForm";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 function Login() {
 	return (

@@ -21,7 +21,7 @@ function Navigation() {
 					<Container>
 						<Navbar.Brand href="/">
 							<Image
-								src="../assets/tree-svgrepo-com.svg"
+								src="./assets/tree-svgrepo-com.svg"
 								width="30px"
 								height="30px"
 								alt=""
@@ -40,13 +40,16 @@ function Navigation() {
 							</Nav>
 							<Form className="d-flex ">
 								<Button
-									href="#"
+									href="/login"
 									className="btn btn-secondary text-dark rounded  "
 									style={{ marginRight: "1rem" }}
 								>
 									Log In
 								</Button>
-								<Button href="#" className="btn btn-dark text-light rounded ">
+								<Button
+									href="/login"
+									className="btn btn-dark text-light rounded "
+								>
 									Sign up free
 								</Button>
 							</Form>

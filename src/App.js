@@ -7,6 +7,7 @@ import Marketplace from "./pages/Marketplace";
 import Pricing from "./pages/Pricing";
 import Discover from "./pages/Discover";
 import Learn from "./pages/Learn";
+import Login from "./pages/Login";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 				<Route path="/pricing" element={<Pricing />} />
 				<Route path="/discover" element={<Discover />} />
 				<Route path="/learn" element={<Learn />} />
+				<Route path="/login" element={<Login />} />
 			</Routes>
 		</div>
 	);
