@@ -21,7 +21,7 @@ function Navigation() {
 					<Container>
 						<Navbar.Brand href="/Clone">
 							<Image
-								src={"../assets/tree-svgrepo-com.svg"}
+								src={"./assets/tree-svgrepo-com.svg"}
 								width="30px"
 								height="30px"
 								alt="tree"
