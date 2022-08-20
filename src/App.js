@@ -14,7 +14,7 @@ function App() {
 			<nav>
 				<ul>
 					<li>
-						<Link to="/"> Home</Link>
+						<Link to="/Clone"> Home</Link>
 					</li>
 					<li>
 						<Link to="/marketplace"> marketplace</Link>
@@ -32,7 +32,7 @@ function App() {
 			</nav>
 
 			<Routes>
-				<Route exact path="/" element={<Home />} />
+				<Route path="/Clone" element={<Home />} />
 				<Route path="/marketplace" element={<Marketplace />} />
 				<Route path="/pricing" element={<Pricing />} />
 				<Route path="/discover" element={<Discover />} />
