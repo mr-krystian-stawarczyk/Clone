@@ -163,9 +163,9 @@ export default function Footer() {
 							<Image
 								fluid
 								src={"./assets/tree-svgrepo-com.svg"}
-								width="90"
-								height="90"
-								alt=""
+								width="90px"
+								height="90px"
+								alt="tree"
 							/>
 						</Col>
 					</Row>
