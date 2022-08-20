@@ -20,23 +20,32 @@ function Navigation() {
 				>
 					<Container>
 						<Navbar.Brand>
-							<Image
-								src={"./assets/tree-svgrepo-com.svg"}
-								width="30px"
-								height="30px"
-								alt="tree"
-								style={{ marginRight: "1rem" }}
-							/>
-							Linktree
+							<Link to="/Clone/">
+								<Image
+									src={"./assets/tree-svgrepo-com.svg"}
+									width="30px"
+									height="30px"
+									alt="tree"
+									style={{ marginRight: "1rem" }}
+								/>
+								Linktree
+							</Link>
 						</Navbar.Brand>
 						<Navbar.Toggle aria-controls="navbarScroll" />
 						<Navbar.Collapse id="navbarScroll">
 							<Nav className="me-auto my-2 my-lg-0 p-1 m-1" navbarScroll>
-								<Link to="/Clone/">Home</Link>
-								<Link to="/marketplace">Marketplace</Link>
-								<Link to="/discover">Discover</Link>
-								<Link to="/pricing">Pricing</Link>
-								<Link to="/learn">Learn</Link>
+								<Nav.Item>
+									<Link to="/marketplace">Marketplace</Link>
+								</Nav.Item>
+								<Nav.Item>
+									<Link to="/discover">Discover</Link>
+								</Nav.Item>
+								<Nav.Item>
+									<Link to="/pricing/">Pricing</Link>
+								</Nav.Item>
+								<Nav.Item>
+									<Link to="/learn">Learn</Link>
+								</Nav.Item>
 							</Nav>
 							<Form className="d-flex ">
 								<Button
