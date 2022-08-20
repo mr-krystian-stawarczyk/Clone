@@ -6,11 +6,12 @@ import Home from "./pages/Home";
 import Marketplace from "./pages/Marketplace";
 import Pricing from "./pages/Pricing";
 import Discover from "./pages/Discover";
+import Learn from "./pages/Learn";
 
 function App() {
 	return (
 		<>
-			<nav>
+			<nav className="d-none">
 				<ul>
 					<li>
 						<Link to="/"> Home</Link>
@@ -22,7 +23,10 @@ function App() {
 						<Link to="/pricing"> pricing</Link>
 					</li>
 					<li>
-						<Link to="/discover"> pricing</Link>
+						<Link to="/discover"> discover</Link>
+					</li>
+					<li>
+						<Link to="/learn"> learn</Link>
 					</li>
 				</ul>
 			</nav>
@@ -32,6 +36,7 @@ function App() {
 				<Route path="/marketplace" element={<Marketplace />} />
 				<Route path="/pricing" element={<Pricing />} />
 				<Route path="/discover" element={<Discover />} />
+				<Route path="/learn" element={<Learn />} />
 			</Routes>
 		</>
 	);
