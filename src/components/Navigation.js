@@ -5,7 +5,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Navigation() {
 	return (
@@ -41,12 +41,19 @@ function Navigation() {
 									<Link to="/discover">Discover</Link>
 								</Nav.Item>
 								<Nav.Item>
-									<Link to="/pricing/">Pricing</Link>
+									<Link to="/pricing">Pricing</Link>
 								</Nav.Item>
 								<Nav.Item>
 									<Link to="/learn">Learn</Link>
 								</Nav.Item>
+								<NavLink to="/login" className="bg-primary text-dark">
+									Login
+								</NavLink>
+								<Nav.Item className="bg-primary text-dark">
+									<Link to="/learn">Learning</Link>
+								</Nav.Item>
 							</Nav>
+
 							<Form className="d-flex ">
 								<Button
 									className="btn btn-secondary text-dark rounded  "
