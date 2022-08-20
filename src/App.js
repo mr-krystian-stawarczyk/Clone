@@ -8,10 +8,12 @@ import Pricing from "./pages/Pricing";
 import Discover from "./pages/Discover";
 import Learn from "./pages/Learn";
 import Login from "./pages/Login";
+import Navigation from "./components/Navigation";
 
 function App() {
 	return (
 		<div className="App">
+			<Navigation />
 			<Routes>
 				<Route path="/Clone" element={<Home />} />
 				<Route path="/marketplace" element={<Marketplace />} />

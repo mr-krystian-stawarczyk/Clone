@@ -1,7 +1,6 @@
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navigation from "../components/Navigation";
 import Header from "../components/Header";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
@@ -17,7 +16,6 @@ import Footer from "../components/Footer";
 function Home() {
 	return (
 		<>
-			<Navigation />
 			<Header />
 			<Section1 />
 			<Section2 />
