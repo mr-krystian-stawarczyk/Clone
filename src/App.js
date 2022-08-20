@@ -10,27 +10,7 @@ import Learn from "./pages/Learn";
 
 function App() {
 	return (
-		<>
-			<nav>
-				<ul>
-					<li>
-						<Link to="/Clone"> Home</Link>
-					</li>
-					<li>
-						<Link to="/marketplace"> marketplace</Link>
-					</li>
-					<li>
-						<Link to="/pricing"> pricing</Link>
-					</li>
-					<li>
-						<Link to="/discover"> discover</Link>
-					</li>
-					<li>
-						<Link to="/learn"> learn</Link>
-					</li>
-				</ul>
-			</nav>
-
+		<div className="App">
 			<Routes>
 				<Route path="/Clone" element={<Home />} />
 				<Route path="/marketplace" element={<Marketplace />} />
@@ -38,7 +18,7 @@ function App() {
 				<Route path="/discover" element={<Discover />} />
 				<Route path="/learn" element={<Learn />} />
 			</Routes>
-		</>
+		</div>
 	);
 }
 export default App;

@@ -32,9 +32,11 @@ function Navigation() {
 						<Navbar.Toggle aria-controls="navbarScroll" />
 						<Navbar.Collapse id="navbarScroll">
 							<Nav className="me-auto my-2 my-lg-0 p-1 m-1" navbarScroll>
-								<Link to="/">Home</Link>
+								<Link to="/Clone">Home</Link>
 								<Link to="/marketplace">Marketplace</Link>
+								<Link to="/discover">Discover</Link>
 								<Link to="/pricing">Pricing</Link>
+								<Link to="/learn">Learn</Link>
 							</Nav>
 							<Form className="d-flex ">
 								<Button
