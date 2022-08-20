@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
+import logo from "../assets/tree-svgrepo-com.svg";
 import { Link } from "react-router-dom";
 
 function Navigation() {
@@ -21,7 +21,7 @@ function Navigation() {
 					<Container>
 						<Navbar.Brand>
 							<Image
-								src={"../assets/tree-svgrepo-com.svg"}
+								src={logo}
 								width="30px"
 								height="30px"
 								alt="tree"
@@ -32,8 +32,12 @@ function Navigation() {
 						<Navbar.Toggle aria-controls="navbarScroll" />
 						<Navbar.Collapse id="navbarScroll">
 							<Nav className="me-auto my-2 my-lg-0 p-1 m-1" navbarScroll>
-								<Link to="/Clone">Home</Link>
-								<Link to="/marketplace">Marketplace</Link>
+								<Link to="/Clone" className="m-1" style={{ color: "gray" }}>
+									Home
+								</Link>
+								<Link to="/marketplace" className="m-1">
+									Marketplace
+								</Link>
 								<Link to="/discover">Discover</Link>
 								<Link to="/pricing">Pricing</Link>
 								<Link to="/learn">Learn</Link>
