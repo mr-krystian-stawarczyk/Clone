@@ -18,7 +18,7 @@ export default function Section5() {
 						>
 							<Card.Img
 								variant="top"
-								src={"./assets/div1.png"}
+								src={"../assets/div1.png"}
 								style={{ width: "400px", height: "270px" }}
 							/>
 							<Card.Body>
@@ -41,7 +41,7 @@ export default function Section5() {
 						>
 							<Card.Img
 								variant="top"
-								src={"./assets/div2.png"}
+								src={"/assets/div2.png"}
 								style={{ width: "400px", height: "270px" }}
 							/>
 							<Card.Body>

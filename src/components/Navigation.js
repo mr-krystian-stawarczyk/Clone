@@ -20,7 +20,11 @@ function Navigation() {
 				>
 					<Container>
 						<Navbar.Brand>
-							<Link to="/Clone/">
+							<Link
+								to="/Clone/"
+								style={{ textDecoration: "none" }}
+								className="text-dark"
+							>
 								<Image
 									src={"./assets/tree-svgrepo-com.svg"}
 									width="30px"
@@ -34,24 +38,37 @@ function Navigation() {
 						<Navbar.Toggle aria-controls="navbarScroll" />
 						<Navbar.Collapse id="navbarScroll">
 							<Nav className="me-auto my-2 my-lg-0 p-1 m-1" navbarScroll>
-								<Nav.Item>
-									<Link to="/marketplace">Marketplace</Link>
-								</Nav.Item>
-								<Nav.Item>
-									<Link to="/discover">Discover</Link>
-								</Nav.Item>
-								<Nav.Item>
-									<Link to="/pricing">Pricing</Link>
-								</Nav.Item>
-								<Nav.Item>
-									<Link to="/learn">Learn</Link>
-								</Nav.Item>
-								<NavLink to="/login" className="bg-primary text-dark">
-									Login
+								<NavLink
+									to="/marketplace"
+									className=" text-dark mr-1"
+									style={{ margin: "1rem", textDecoration: "none" }}
+								>
+									Marketplace
 								</NavLink>
-								<Nav.Item className="bg-primary text-dark">
-									<Link to="/learn">Learning</Link>
-								</Nav.Item>
+
+								<NavLink
+									to="/discover"
+									className=" text-dark mr-1"
+									style={{ margin: "1rem", textDecoration: "none" }}
+								>
+									Discover
+								</NavLink>
+
+								<NavLink
+									to="/pricing"
+									className=" text-dark mr-1"
+									style={{ margin: "1rem", textDecoration: "none" }}
+								>
+									Pricing
+								</NavLink>
+
+								<NavLink
+									to="/learn"
+									className=" text-dark mr-1"
+									style={{ margin: "1rem", textDecoration: "none" }}
+								>
+									Learn
+								</NavLink>
 							</Nav>
 
 							<Form className="d-flex ">
@@ -59,10 +76,22 @@ function Navigation() {
 									className="btn btn-secondary text-dark rounded  "
 									style={{ marginRight: "1rem" }}
 								>
-									<Link to="/login">Log In</Link>
+									<NavLink
+										to="/login"
+										className=" text-dark mr-1"
+										style={{ margin: "1rem", textDecoration: "none" }}
+									>
+										Log In
+									</NavLink>
 								</Button>
 								<Button className="btn btn-dark text-light rounded ">
-									<Link to="/login">Sign Up Free</Link>
+									<NavLink
+										to="/login"
+										className=" text-light mr-1"
+										style={{ margin: "1rem", textDecoration: "none" }}
+									>
+										Sign Up Free
+									</NavLink>
 								</Button>
 							</Form>
 						</Navbar.Collapse>
