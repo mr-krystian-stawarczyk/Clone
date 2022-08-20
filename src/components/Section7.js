@@ -78,7 +78,7 @@ export default function Section7() {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded  rounded-circle"
-									src="../assets/chris.jpg"
+									src={"./assets/chris.jpg"}
 									alt="First slide"
 								/>
 								<Carousel.Caption>
@@ -89,7 +89,7 @@ export default function Section7() {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded  rounded-circle"
-									src="../assets/kris.jpg"
+									src={"./assets/kris.jpg"}
 									alt="Second slide"
 								/>
 
@@ -101,7 +101,7 @@ export default function Section7() {
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded  rounded-circle"
-									src="../assets/sig.jpg"
+									src={"./assets/sig.jpg"}
 									alt="Third slide"
 								/>
 

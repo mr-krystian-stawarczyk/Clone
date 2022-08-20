@@ -59,7 +59,7 @@ export default function Section6() {
 							>
 								<Card.Img
 									variant="top"
-									src="../assets/merakist-CNbRsQj8mHQ-unsplash.jpg"
+									src={"./assets/merakist-CNbRsQj8mHQ-unsplash.jpg"}
 								/>
 								<Card.Body>
 									<Card.Text>
@@ -78,7 +78,7 @@ export default function Section6() {
 								}}
 								className="bg-transparent text-dark mx-auto my-auto mt-5 "
 							>
-								<Card.Img variant="top" src="../assets/2.jpg" />
+								<Card.Img variant="top" src={"./assets/2.jpg"} />
 								<Card.Body>
 									<Card.Text>
 										Customize your Linktree to match your brand. Make it feel
@@ -96,7 +96,7 @@ export default function Section6() {
 								}}
 								className="bg-transparent text-dark mx-auto my-auto mt-5  "
 							>
-								<Card.Img variant="top" src="../assets/1.jpg" />
+								<Card.Img variant="top" src={"./assets/1.jpg"} />
 								<Card.Body>
 									<Card.Text>
 										Manage, update and schedule content with our quick, easy

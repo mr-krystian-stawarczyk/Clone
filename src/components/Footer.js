@@ -162,7 +162,7 @@ export default function Footer() {
 							<span>Linktree</span>
 							<Image
 								fluid
-								src={"../assets/tree-svgrepo-com.svg"}
+								src={"./assets/tree-svgrepo-com.svg"}
 								width="90"
 								height="90"
 								alt=""
