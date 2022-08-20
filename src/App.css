@@ -1,38 +1,177 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap");
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Track */
+::-webkit-scrollbar-track {
+	background: #616161;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(27, 170, 63);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
 
-.App-link {
-  color: #61dafb;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+	font-family: "Blinker", "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: rgb(80, 34, 116);
 }
+
+/*Navbar*/
+
+#navbarScroll {
+	max-height: 250px;
+}
+
+#navbar {
+	margin-right: 4rem;
+	margin-left: 4rem;
+}
+/*Carousel*/
+
+.carousel {
+	max-width: 600px;
+
+	margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 100px;
+	width: 100px;
+	outline: black;
+	background-size: 100%, 100%;
+	border-radius: 50%;
+
+	background-image: none;
+	background-color: rgba(110, 110, 110, 0.5);
+}
+
+/*Accordion*/
+
+.accordion-item {
+	background-color: rgb(73, 0, 13);
+	justify-content: center;
+	align-items: center;
+	border: none;
+}
+.accordion-item h3 {
+	color: white;
+}
+
+.accordion-button:not(.collaped) {
+	background-color: rgb(73, 0, 13);
+}
+
+.accordion-body {
+	color: rgb(233, 192, 233);
+}
+
+.accordion-item {
+	color: rgb(202, 233, 192);
+	background-color: rgb(120, 122, 0);
+}
+
+#footerTree {
+	background-color: rgb(165, 73, 173);
+}
+
+/*  Adding media queries to fit everything   */
+/* Change images to dynamic content */
+
+/*  Make bsg site  */
+
+/* Fetch Data, Populate Data  */
+/* Caption text under slides */
+/* Media queries for sm display */
+
+@media screen and (max-width: 576px) {
+	#header {
+		height: 120vh !important;
+	}
+
+	#section1 {
+		height: 120vh !important;
+	}
+	#section2 {
+		height: 120vh !important;
+	}
+	#section3 {
+		height: 120vh !important;
+	}
+	#section4 {
+		height: 80vh !important;
+	}
+	#section5 {
+		height: 160vh !important;
+	}
+	#section6 {
+		height: 120vh !important;
+	}
+	#section7 {
+		height: 100vh !important;
+	}
+
+	#section8 {
+		height: 140vh !important;
+	}
+	#spline1 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	#spline2 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	#spline3 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	#spline4 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#spline1 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	#spline2 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	#spline3 {
+		width: 300px !important;
+		height: 300px !important;
+	}
+	#spline4 {
+		width: 300px !important;
+		height: 300px !important;
+		object-fit: scale-down !important;
+	}
+}
+
+/*  Make component for fetch   */
+/*  Make component show get req   */
+/* Make cards with data from fetch */
+/* Make form to add data to DB */
