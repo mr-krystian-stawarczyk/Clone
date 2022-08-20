@@ -1,14 +1,13 @@
 import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Footer from "../components/Footer";
 import Price from "../components/Price";
-
+import Section4 from "../components/Section4";
 function Pricing() {
 	return (
 		<>
 			<Price />
-			<Footer />
+			<Section4 />
 		</>
 	);
 }

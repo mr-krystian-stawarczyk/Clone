@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Marketplace from "./pages/Marketplace";
 import Pricing from "./pages/Pricing";
@@ -9,6 +9,7 @@ import Discover from "./pages/Discover";
 import Learn from "./pages/Learn";
 import Login from "./pages/Login";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 				<Route path="/learn" element={<Learn />} />
 				<Route path="/login" element={<Login />} />
 			</Routes>
+			<Footer />
 		</div>
 	);
 }
