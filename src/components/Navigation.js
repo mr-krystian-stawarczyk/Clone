@@ -40,16 +40,12 @@ function Navigation() {
 							</Nav>
 							<Form className="d-flex ">
 								<Button
-									href="/login"
 									className="btn btn-secondary text-dark rounded  "
 									style={{ marginRight: "1rem" }}
 								>
 									<Link to="/login">Log In</Link>
 								</Button>
-								<Button
-									href="/login"
-									className="btn btn-dark text-light rounded "
-								>
+								<Button className="btn btn-dark text-light rounded ">
 									<Link to="/learn">Sign Up Free</Link>
 								</Button>
 							</Form>

@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function Discovery() {
+function Discovery() {
 	const [posts, setPosts] = useState([]);
 
 	useEffect(() => {
@@ -85,3 +85,5 @@ export default function Discovery() {
 		</>
 	);
 }
+
+export default Discovery;
