@@ -11,7 +11,7 @@ import Learn from "./pages/Learn";
 function App() {
 	return (
 		<>
-			<nav className="d-none">
+			<nav>
 				<ul>
 					<li>
 						<Link to="/"> Home</Link>
