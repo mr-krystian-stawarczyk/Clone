@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 export default function Section6() {
 	return (
 		<>
@@ -35,9 +36,14 @@ export default function Section6() {
 								border: "none",
 								color: "black",
 							}}
-							href="/pricing"
 						>
-							Explore all plans
+							<NavLink
+								to="/pricing"
+								className=" text-dark "
+								style={{ textDecoration: "none" }}
+							>
+								Explore all plans
+							</NavLink>
 						</Button>
 					</Col>
 				</Row>

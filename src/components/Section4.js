@@ -65,11 +65,9 @@ export default function Section4(data, item) {
 									alt="Twich"
 									style={{ width: "300px", height: "500px" }}
 								/>
-								<Carousel.Caption>
-									<h3>HBO</h3>
-									<p>
-										Nulla vitae elit libero, a pharetra augue mollis interdum.
-									</p>
+								<Carousel.Caption className="text-dark">
+									<h2>Twitch</h2>
+									<h4>Share Your content whatever You want!</h4>
 								</Carousel.Caption>
 							</Carousel.Item>
 							<Carousel.Item>
@@ -80,27 +78,22 @@ export default function Section4(data, item) {
 									style={{ width: "300px", height: "500px" }}
 								/>
 
-								<Carousel.Caption>
-									<h3>Comedy Central</h3>
-									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									</p>
+								<Carousel.Caption className="text-dark">
+									<h2>Google Cloud</h2>
+									<h4>Link Your profile to any links.</h4>
 								</Carousel.Caption>
 							</Carousel.Item>
 							<Carousel.Item>
 								<img
 									className="d-block w-100 rounded shadow-lg"
-									src="https://i.pinimg.com/564x/a2/e3/7e/a2e37ea31ca0ee55c001b0d4f014754a.jpg"
+									src="https://brandirectory-live-public.s3.eu-west-2.amazonaws.com/logos/65a8d475-56ab-4baa-8625-56524ae56fd0.png%3Funnamed.png"
 									alt="Wolf"
 									style={{ width: "300px", height: "500px" }}
 								/>
 
-								<Carousel.Caption>
-									<h3>RedBull</h3>
-									<p>
-										Praesent commodo cursus magna, vel scelerisque nisl
-										consectetur.
-									</p>
+								<Carousel.Caption className="text-dark">
+									<h2>Instagram</h2>
+									<h4>Create profile and join Your links!</h4>
 								</Carousel.Caption>
 							</Carousel.Item>
 						</Carousel>

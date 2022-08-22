@@ -8,6 +8,7 @@ import {
 	InputGroup,
 	Image,
 } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
 	return (
@@ -54,16 +55,21 @@ export default function Footer() {
 							<Button
 								style={{
 									marginLeft: "1rem",
-									color: "black",
+
 									border: "none",
 									height: "50px",
 
 									backgroundColor: "rgb(210, 232, 35)",
 								}}
 								className="rounded"
-								href="/login"
 							>
-								Claim Your Linktree
+								<NavLink
+									to="/login"
+									className=" text-dark "
+									style={{ textDecoration: "none" }}
+								>
+									Claim Your Linktree
+								</NavLink>
 							</Button>
 						</Col>
 					</Row>
@@ -126,9 +132,14 @@ export default function Footer() {
 										backgroundColor: "rgb(239, 240, 236)",
 										border: "none",
 									}}
-									href="/login"
 								>
-									Log In
+									<NavLink
+										to="/login"
+										className=" text-dark "
+										style={{ textDecoration: "none" }}
+									>
+										Log In
+									</NavLink>
 								</Button>
 								<Button
 									className="btn  text-dark rounded "
@@ -139,9 +150,14 @@ export default function Footer() {
 										backgroundColor: "rgb(210, 232, 35)",
 										border: "none",
 									}}
-									href="/login"
 								>
-									Get started for free
+									<NavLink
+										to="/login"
+										className=" text-dark "
+										style={{ textDecoration: "none" }}
+									>
+										Get Started for Free
+									</NavLink>
 								</Button>
 							</Form>
 						</Col>

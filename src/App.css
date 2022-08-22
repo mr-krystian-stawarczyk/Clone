@@ -77,17 +77,12 @@ body {
 	color: white;
 }
 
-.accordion-button:not(.collaped) {
+.accordion-flush .accordion-item .accordion-button {
 	background-color: rgb(73, 0, 13);
 }
-
 .accordion-body {
 	color: rgb(233, 192, 233);
-}
-
-.accordion-item {
-	color: rgb(202, 233, 192);
-	background-color: rgb(120, 122, 0);
+	background-color: rgb(73, 0, 13);
 }
 
 #footerTree {

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import Spline from "@splinetool/react-spline";
 
@@ -57,9 +57,14 @@ function Share() {
 											border: "none",
 											color: "white",
 										}}
-										href="/login"
 									>
-										Get your free Linktree!
+										<NavLink
+											to="/login"
+											className=" text-light "
+											style={{ textDecoration: "none" }}
+										>
+											Get your free Linktree!
+										</NavLink>
 									</Button>
 								</Col>
 							</Card.Body>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 function Price() {
@@ -41,12 +41,23 @@ function Price() {
 								<Card.Text>
 									<h4>
 										The VIP support plan for businesses ready to monetize and
-										sell on a larger scale.{" "}
+										sell on a larger scale.
 									</h4>
 								</Card.Text>
-								<a href="/login">
-									<Button variant="primary">Get Premium</Button>{" "}
-								</a>
+								<Button
+									style={{
+										border: "none",
+									}}
+									className="rounded btn-primary"
+								>
+									<NavLink
+										to="/login"
+										className=" text-light "
+										style={{ textDecoration: "none" }}
+									>
+										Get Premium
+									</NavLink>
+								</Button>
 							</Card.Body>
 						</Card>
 					</Col>
@@ -61,18 +72,28 @@ function Price() {
 									style={{ backgroundColor: "purple", color: "white" }}
 								>
 									<Card.Title>13.99$ / Month</Card.Title>
-									<Card.Title>Pro Recommended</Card.Title>{" "}
+									<Card.Title>Pro Recommended</Card.Title>
 								</div>
 								<Card.Text>
 									<h4>
-										{" "}
 										Grow, learn about and own your following forever with a
-										branded Linktree.{" "}
+										branded Linktree.
 									</h4>
 								</Card.Text>
-								<a href="/login">
-									<Button variant="danger">Get Pro</Button>{" "}
-								</a>
+								<Button
+									style={{
+										border: "none",
+									}}
+									className="rounded btn-danger"
+								>
+									<NavLink
+										to="/login"
+										className=" text-light "
+										style={{ textDecoration: "none" }}
+									>
+										Get Pro
+									</NavLink>
+								</Button>
 							</Card.Body>
 						</Card>
 					</Col>
@@ -87,18 +108,28 @@ function Price() {
 									style={{ backgroundColor: "purple", color: "white" }}
 								>
 									<Card.Title>19.99$ / Month</Card.Title>
-									<Card.Title>Starter</Card.Title>{" "}
+									<Card.Title>Starter</Card.Title>
 								</div>
 								<Card.Text>
 									<h4>
-										{" "}
 										More customization and control for creators ready to drive
-										more traffic to and through their Linktree.{" "}
+										more traffic to and through their Linktree.
 									</h4>
 								</Card.Text>
-								<a href="/login">
-									<Button variant="primary">Get Starter</Button>
-								</a>
+								<Button
+									style={{
+										border: "none",
+									}}
+									className="rounded btn-primary"
+								>
+									<NavLink
+										to="/login"
+										className=" text-light "
+										style={{ textDecoration: "none" }}
+									>
+										Get Starter
+									</NavLink>
+								</Button>
 							</Card.Body>
 						</Card>
 					</Col>
@@ -113,7 +144,7 @@ function Price() {
 									style={{ backgroundColor: "purple", color: "white" }}
 								>
 									<Card.Title>Free Plan</Card.Title>
-									<Card.Title>Free</Card.Title>{" "}
+									<Card.Title>Free</Card.Title>
 								</div>
 								<Card.Text>
 									<h4>
@@ -121,9 +152,20 @@ function Price() {
 										community to everything you are.
 									</h4>
 								</Card.Text>
-								<a href="/login">
-									<Button variant="primary">Join for free</Button>{" "}
-								</a>
+								<Button
+									style={{
+										border: "none",
+									}}
+									className="rounded btn-primary"
+								>
+									<NavLink
+										to="/login"
+										className=" text-light "
+										style={{ textDecoration: "none" }}
+									>
+										Join For Free
+									</NavLink>
+								</Button>
 							</Card.Body>
 						</Card>
 					</Col>

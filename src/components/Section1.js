@@ -1,6 +1,8 @@
 import React from "react";
 import { Col, Container, Row, Card, Button } from "react-bootstrap";
 import Spline from "@splinetool/react-spline";
+import { NavLink } from "react-router-dom";
+
 function Section1() {
 	return (
 		<>
@@ -60,9 +62,14 @@ function Section1() {
 											height: "40px",
 											backgroundColor: "rgb(80, 34, 116)",
 										}}
-										href="/login"
 									>
-										Get started for free!
+										<NavLink
+											to="/login"
+											className=" text-light "
+											style={{ textDecoration: "none" }}
+										>
+											Get started for free!
+										</NavLink>
 									</Button>
 								</Col>
 							</Card.Body>
