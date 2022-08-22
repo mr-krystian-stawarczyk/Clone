@@ -6,7 +6,7 @@ import Learning from "../components/Learning";
 export default function Learn() {
 	return (
 		<>
-			<Learning />
+			<h1>Loading data</h1>
 		</>
 	);
 }
